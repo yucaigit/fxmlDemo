@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lyzd.javafx.MainController">
+   <children>
+      <Label layoutX="199.0" layoutY="29.0" text="新增员工页面" />
+      <Label layoutX="107.0" layoutY="96.0" text="编号" />
+      <Label layoutX="107.0" layoutY="145.0" text="姓名" />
+      <Label layoutX="107.0" layoutY="233.0" text="性别" />
+      <Label layoutX="107.0" layoutY="190.0" text="年龄" />
+      <Label layoutX="103.0" layoutY="279.0" text="职位" />
+      <TextField fx:id="inputId" layoutX="173.0" layoutY="91.0" />
+      <TextField fx:id="inputName" layoutX="173.0" layoutY="140.0" />
+      <TextField fx:id="inputAge" layoutX="173.0" layoutY="228.0" />
+      <TextField fx:id="inputJob" layoutX="173.0" layoutY="274.0" />
+      <Button layoutX="490.0" layoutY="34.0" mnemonicParsing="false" text="后退" onAction="#returnIndex"/>
+      <TextField fx:id="inputSex" layoutX="173.0" layoutY="185.0" />
+      <Label fx:id="tip" layoutX="336.0" layoutY="323.0" prefHeight="20.0" prefWidth="162.0">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.3058252427184466">
+               <stops>
+                  <Stop color="#d70505" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button layoutX="173.0" layoutY="328.0" mnemonicParsing="false" onAction="#insert" text="submit" />
+   </children>
+</AnchorPane>

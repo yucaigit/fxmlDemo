@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lyzd.javafx.IndexController">
+   <children>
+      <Accordion layoutX="173.0" layoutY="43.0" />
+       <Pane layoutX="11.0" layoutY="4.0" prefHeight="49.0" prefWidth="580.0">
+           <fx:include source="Tab.fxml" fx:id="tab"/>
+       </Pane>
+       <VBox layoutX="14.0" layoutY="100.0" prefHeight="200.0" prefWidth="560.0" >
+           <fx:include source="Main.fxml" fx:id="main"/>
+       </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lyzd.javafx.TabController">
+   <children>
+      <Button layoutX="38.0" layoutY="26.0" mnemonicParsing="false" onAction="#findAll" text="所有信息" />
+      <Button layoutX="454.0" layoutY="26.0" mnemonicParsing="false" onAction="#exit" text="退出登录" />
+      <Button layoutX="246.0" layoutY="26.0" mnemonicParsing="false" text="测试" fx:id="ceshi" onAction="#testf"/>
+   </children>
+</AnchorPane>
